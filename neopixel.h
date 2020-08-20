@@ -15,7 +15,7 @@ public:
 	
 	
     nBlock_NeoPixel(PinName MOSI);
-    void triggerInput(uint32_t inputNumber, uint32_t value);
+    void triggerInput(nBlocks_Message message);
 	void endFrame();
 	
    
